@@ -3,7 +3,6 @@ import { IMenuItem, ISocials } from "@/types";
 export const footerDetails: {
     subheading: string;
     quickLinks: IMenuItem[];
-    email: string;
     telephone: string;
     socials: ISocials;
 } = {
@@ -27,16 +26,10 @@ export const footerDetails: {
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    telephone: '+57 3017060506',
     socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        instagram: 'https://www.instagram.com/sanandest/',
+        tiktok: 'https://www.tiktok.com/@sanandest',
+        facebook: 'https://www.facebook.com/profile.php?id=61568434589575&mibextid=qi2Omg&rdid=dyhljb1BafM43pE9&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Af1Srd2wP%2F%3Fmibextid%3Dqi2Omg',
     }
 }

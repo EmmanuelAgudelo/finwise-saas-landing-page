@@ -12,6 +12,14 @@
   --secondary-accent: #FFD85C;    /* Amarillo acentuado */
   --foreground-accent: #454545;
   --hero-background: #F3F3F5;
+
+  /* Botón: hover y tonalidad oscura */
+  --primary-hover: #02522a;         /* Verde más claro para hover */
+  --primary-dark: #022415;          /* Verde más oscuro y elegante */
+  --secondary-hover: #d4b13a;       /* Amarillo más oscuro para hover */
+  --secondary-dark: #8c6e1c;        /* Amarillo/dorado más oscuro y elegante */
+
+
 }
 
 html {

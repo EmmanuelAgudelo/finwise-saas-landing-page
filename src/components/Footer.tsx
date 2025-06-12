@@ -9,8 +9,8 @@ import Image from 'next/image';
 const Footer: React.FC = () => {
     return (
         <footer className="bg-hero-background text-foreground py-10">
-            <div className="max-w-7xl w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div>
+            <div className="max-w-7xl w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+                <div className='flex flex-col items-center md:items-start'>
                     <Link href="/" className="flex items-center content-center">
                         <Image
                             src={siteDetails.siteLogo}
@@ -31,12 +31,10 @@ const Footer: React.FC = () => {
                         ))}
                     </ul>
                 </div>
-                <div>
+                <div className="flex flex-col items-center md:items-start">
                     <h4 className="text-lg font-semibold mb-4">Contáctanos</h4>
 
-                    {footerDetails.email && <a href={`mailto:${footerDetails.email}`} className="block text-foreground-accent hover:text-foreground">Email: {footerDetails.email}</a>}
-
-                    {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Phone: {footerDetails.telephone}</a>}
+                    {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Teléfono: {footerDetails.telephone}</a>}
 
                     {footerDetails.socials && (
                         <div className="mt-5 flex items-center gap-5 flex-wrap">
@@ -47,6 +45,7 @@ const Footer: React.FC = () => {
                                             href={footerDetails.socials[platformName]}
                                             key={platformName}
                                             aria-label={platformName}
+                                            target='_blank'
                                         >
                                             {getPlatformIconByName(platformName)}
                                         </Link>
@@ -57,7 +56,7 @@ const Footer: React.FC = () => {
                     )}
                 </div>
             </div>
-            <div className="mt-8 md:text-center text-foreground-accent px-6">
+            <div className="mt-8 text-center text-foreground-accent px-6">
                 <p>Copyright &copy; {new Date().getFullYear()} {siteDetails.siteName}. Todos los derechos reservados.</p>
                 <p className="text-sm mt-2 text-gray-500">Hecho con &hearts;</p>
             </div>

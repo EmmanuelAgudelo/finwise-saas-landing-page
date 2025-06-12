@@ -11,8 +11,8 @@ export const menuItems: IMenuItem[] = [
     },
 
     {
-        text: "Productos",
-        url: "#products"
+        text: "Filtro Virtual",
+        url: "#filter"
     },
     {
         text: "Reseñas",
