@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         <>
             <section
                 id="hero"
-                className="relative flex items-center justify-center pb-0 pt-32 md:pt-40 px-5 bg-gradient-to-b from-white to-green-100">
+                className="relative flex items-center justify-center pb-0 pt-32 md:pt-25 px-5 bg-gradient-to-b from-white to-green-100">
                 <div className="text-center">
                     <motion.div
                         className="mt-12"
@@ -22,11 +22,12 @@ const Hero: React.FC = () => {
                     >
                         <h1 className="text-8xl font-bold text-primary">San & Est</h1>
                         <p className="text-xl mt-4 text-secondary-dark">Al minuto, contigo.</p>
-                        <p className="italic text-md mt-4 text-gray-500 mb-20">
+                        <p className="italic text-md text-gray-500 mb-12">
                             Elegancia a tu alcance, Tiempo que impone presencia.
                         </p>
                         <Link href={"https://www.whatsapp.com/catalog/573017060506/?app_absent=0"}
-                            className="mt-6 px-8 py-3 bg-primary text-white rounded-2xl font-semibold shadow hover:bg-primary-dark transition"
+                            className="px-8 py-3 bg-primary text-white rounded-2xl font-semibold shadow hover:bg-primary-dark transition"
+                            target='_blank'
                         >
                             Catálogo
                         </Link>
@@ -39,12 +40,12 @@ const Hero: React.FC = () => {
                             priority={true}
                             unoptimized={true}
                             alt="app mockup"
-                            className='relative mt-12 md:mt-16 z-10 opacity-50 sm:ml-12 ml-5'
+                            className='relative mt-10 md:mt-10 z-10 opacity-50 sm:ml-12 ml-5'
                         />
                     </motion.div>
                 </div>
             </section>
-            <div className="flex justify-center mt-4">
+            <div className="flex justify-center mt-2">
                 <motion.div
                     animate={{ y: [0, 12, 0] }}
                     transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
