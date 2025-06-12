@@ -5,10 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #FED835;
-  --secondary: #304fff;
+  --primary: #033A20;
+  --secondary: #BA952E;
 
-  --primary-accent: #e5c230;
+  --primary-accent: #0D6B3A;      /* Verde acentuado */
+  --secondary-accent: #FFD85C;    /* Amarillo acentuado */
   --foreground-accent: #454545;
   --hero-background: #F3F3F5;
 }
@@ -51,4 +52,48 @@ h1, h2, h3, h4, h5, h6 {
 
 .benefit-section:last-of-type > div {
   @apply mb-10;
+}
+
+@layer utilities {
+  @keyframes pulseSlow {
+    0%, 100% {
+      opacity: 0.95;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes textureMove {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 10px 10px;
+    }
+  }
+
+  .animate-pulseSlow {
+    animation: pulseSlow 6s ease-in-out infinite;
+  }
+
+  .animate-textureMove {
+    animation: textureMove 8s linear infinite;
+  }
+}
+
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
 }

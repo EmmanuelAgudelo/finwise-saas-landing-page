@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'San & Est',
+    siteUrl: 'https://sanandest.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
+        title: 'San & Est',
         description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
     },
-    language: 'en-us',
+    language: 'ens-us',
     locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
+    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`,
     googleAnalyticsId: '', // e.g. G-XXXXXXX,
 }
