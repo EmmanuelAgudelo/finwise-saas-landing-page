@@ -10,15 +10,20 @@ export const footerDetails: {
     subheading: "Empowering businesses with cutting-edge financial technology solutions.",
     quickLinks: [
         {
-            text: "Features",
+            text: "Estadísticas",
+            url: "#stats"
+        },
+        {
+            text: "Nosotros",
             url: "#features"
         },
+
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "Productos",
+            url: "#products"
         },
         {
-            text: "Testimonials",
+            text: "Reseñas",
             url: "#testimonials"
         }
     ],

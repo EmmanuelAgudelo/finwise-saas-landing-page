@@ -1,23 +1,23 @@
 import { ITestimonial } from "@/types";
-import { siteDetails } from "./siteDetails";
+
 
 export const testimonials: ITestimonial[] = [
     {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
+        name: 'Juan M.',
+        role: 'Cliente de réplicas Rolex',
+        message: 'La calidad del reloj réplica de Rolex es impresionante y el servicio fue rápido. El mecanismo podría ser más preciso.',
         avatar: '/images/testimonial-1.webp',
     },
     {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
+        name: 'Ana L.',
+        role: 'Amante de los relojes',
+        message: 'La réplica de Omega superó mis expectativas. El reloj es sólido y el brillo excepcional.',
         avatar: '/images/testimonial-2.webp',
     },
     {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
+        name: 'Carlos R.',
+        role: 'Comprador de TAG Heuer',
+        message: 'El reloj réplica de Patek Philippe es hermoso y la tienda es confiable. El proceso de compra fue fácil.',
         avatar: '/images/testimonial-3.webp',
     },
 ];

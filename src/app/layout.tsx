@@ -21,18 +21,12 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: 'favicon.ico',
         width: 1200,
         height: 675,
         alt: siteDetails.siteName,
       },
     ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: siteDetails.metadata.title,
-    description: siteDetails.metadata.description,
-    images: ['/images/twitter-image.jpg'],
   },
 };
 
