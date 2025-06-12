@@ -1,4 +1,4 @@
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaThreads, FaTiktok, FaTwitter, FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaThreads, FaTiktok, FaTwitter, FaYoutube } from "react-icons/fa6";
 
 export const getPlatformIconByName = (platformName: string): JSX.Element | null => {
     switch (platformName) {
